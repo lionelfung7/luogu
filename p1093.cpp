@@ -81,6 +81,7 @@ int main(void){
 		while(students[m + 1].all == students[m].all) m++;
 		if(i != m){
 			quickSortChineseDesc(i, m);
+			/*
 			for(int j = i; j <= m; j++){
 				int k = j;
 				while(students[k + 1].chinese == students[k].chinese) k++;
@@ -88,7 +89,7 @@ int main(void){
 					quickSortSerialnoAsc(j, k);
 					j = k;
 				}
-			}
+			}*/
 			i = m;
 		}
 	}
